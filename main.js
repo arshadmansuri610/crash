@@ -46,3 +46,10 @@ const todos = [
     console.log(i)
 }*/
 
+/* while
+
+let i = 0;
+while(i < 10) {
+    console.log(`While loop Number: ${i}`);
+    i++;
+}*/
