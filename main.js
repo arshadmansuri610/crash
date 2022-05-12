@@ -76,3 +76,16 @@ while(i < fruits.length) {
 console.log(fruits[i])
 i = i+1;
 } */
+
+let star = ['*', '**', '***', '****', '*****'];
+// console.log(star[0]);
+// console.log(star[1]);
+// console.log(star[2]);
+// console.log(star[3]);
+// console.log(star[4]);
+
+i = 0;
+while(i <= 5) {
+    console.log(star[i])
+    i = i+1
+}
