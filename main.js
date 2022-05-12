@@ -77,6 +77,7 @@ console.log(fruits[i])
 i = i+1;
 } */
 
+const input = 10;
 let star = ['*', '**', '***', '****', '*****'];
 // console.log(star[0]);
 // console.log(star[1]);
@@ -84,8 +85,14 @@ let star = ['*', '**', '***', '****', '*****'];
 // console.log(star[3]);
 // console.log(star[4]);
 
-i = 0;
-while(i <= 5) {
-    console.log(star[i])
-    i = i+1
+// i = 0;
+// while(i <= 5) {
+//     console.log(star[i])
+//     i = i+1
+// }
+
+i=0 //starting point of loop
+while(i <= input) { // (i <= 4) is a condition it will check the variable i is less than equal to 4
+console.log(star[i]) // print variable star as per i 
+i = i+1 // adds + 1 to i
 }
