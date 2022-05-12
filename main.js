@@ -53,3 +53,26 @@ while(i < 10) {
     console.log(`While loop Number: ${i}`);
     i++;
 }*/
+
+// forEach, map, filter
+
+//highorder arrays
+
+/* while(true){
+    console.log('inside loop')
+};*/
+
+/*const fruits = ['mango', 'orange', 'grapes']
+
+let i=0;
+while(i<= 2) {
+console.log(fruits[i])
+i = i+1;
+}
+
+
+i=0;
+while(i < fruits.length) {
+console.log(fruits[i])
+i = i+1;
+} */
